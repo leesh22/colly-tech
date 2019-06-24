@@ -21,7 +21,7 @@ const IndexPage = () => (
     <SEO title="Home" />
     <div style={wrapperStyle}>
       <Image style={logoStyle}></Image>
-      <h2>Website coming soon</h2>
+      <h2>ready for development</h2>
     </div>
     {/* <Link to="/page-2/">Go to page 2</Link> */}
   </Layout>
