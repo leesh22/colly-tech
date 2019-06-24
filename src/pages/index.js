@@ -5,16 +5,25 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 
+
+const wrapperStyle = {
+  padding: "50px"
+}
+
+const logoStyle= {
+  width: "70%",
+  marginBottom: "50px"
+}
+
+
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+    <div style={wrapperStyle}>
+      <Image style={logoStyle}></Image>
+      <h2>Website coming soon</h2>
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    {/* <Link to="/page-2/">Go to page 2</Link> */}
   </Layout>
 )
 
